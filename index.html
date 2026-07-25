@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jons Fitness Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo-box">
+                <img src="ClubBlackLogoPNG.png" alt="Fitness Club Logo" class="header-logo">
+            </div>
+            <div class="header-text">
+                <h1>Jons Fitness Club</h1>
+                <p>Beginner or Advanced, You will achieve more with us!</p>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="category-container">
+            <a href="weightroom.html" class="category-card-link">
+                <div class="category-card">
+                    <h2>Weight Room</h2>
+                    <img src="WeightRoom.jpg" alt="Weight Room" class="card-image">
+                    <p>The perfect place to build strength and muscle, from easy to use machines for beginners to rows of dumbells and weights for advanced lifters.</p>
+                </div>
+            </a>
+
+            <a href="lounge.html" class="category-card-link">
+                <div class="category-card">
+                    <h2>Fuel&Work Lounge</h2>
+                    <img src="Lounge.jpg" alt="Fuel and Work Lounge" class="card-image">
+                    <p>A place to recover from a intense workout, refuel your body with delicious and healthy meals, and relax in a comfortable lounge area.</p>
+                </div>
+            </a>
+
+            <a href="athletic.html" class="category-card-link">
+                <div class="category-card">
+                    <h2>Athletic Center</h2>
+                    <img src="Athlete.jpg" alt="Athletic Center" class="card-image">
+                    <p>This facility offers wide range of athletic training options for people who are advaned in their fitness journey and those who want to learn.</p>
+                </div>
+            </a>
+
+            <a href="classes.html" class="category-card-link">
+                <div class="category-card">
+                    <h2>Workout Classes</h2>
+                    <img src="ClassesWorkout.jpeg" alt="Workout Classes" class="card-image">
+                    <p>If you prefer to train in a group setting, workout classes are for you with professional instructors guiding each class with a fun attitude.</p>
+                </div>
+            </a>
+        </section>
+    
+        <section class="form-container">
+            <h2>Become a Member!</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="membership">Membership Type:</label>
+                    <select id="membership" name="membership">
+                        <option value="basic">1 Week Free Trial</option>
+                        <option value="basic">Gym Pass Monthly</option>
+                        <option value="basic">Gym Pass Annual</option>
+                        <option value="guest">Gym Pass Annual 2 Guests</option>
+                        <option value="nationwide">Nationwide Access</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="yes" checked>
+                        Send me fitness tips and updates
+                    </label>
+                </div>
+
+                <div class="form-buttons">
+                    <input type="submit" value="Submit Application" class="btn">
+                    <input type="reset" value="Reset Form" class="btn btn-reset">
+                </div>
+            </form>
+        </section>
+
+
+        <section class="gallery-section">
+            <div class="gallery-heading">
+                <h2>Club Gallery</h2>
+            </div>
+
+            <div class="responsive-gallery">
+                <div class="gallery">
+                    <a target="_blank" href="Turf.jpg">
+                        <img src="Turf.jpg" alt="Weightroom Turf" width="600" height="400">
+                    </a>
+                    <div class="desc">Weightroom Turf</div>
+                </div>
+            </div>
+
+            <div class="responsive-gallery">
+                <div class="gallery">
+                    <a target="_blank" href="GymFood.jpg">
+                        <img src="GymFood.jpg" alt="Juice Bar" width="600" height="400">
+                    </a>
+                    <div class="desc">Fuel & Work Lounge</div>
+                </div>
+            </div>
+
+            <div class="responsive-gallery">
+                <div class="gallery">
+                    <a target="_blank" href="Pool.jpg">
+                        <img src="Pool.jpg" alt="Olympic Pool" width="600" height="400">
+                    </a>
+                    <div class="desc">Olympic Pool</div>
+                </div>
+            </div>
+
+            <div class="responsive-gallery">
+                <div class="gallery">
+                    <a target="_blank" href="Together.jpg">
+                        <img src="Together.jpg" alt="Zumba Class" width="600" height="400">
+                    </a>
+                    <div class="desc">Zumba Class</div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+        </section>
+
+    </main>
+
+
+    <footer class="main-footer">
+        <p>Contact Information: Jonsfitnessclub@gmail.com | 3321 Lincoln Street</p>
+    </footer>
+
+</body>
+</html>
